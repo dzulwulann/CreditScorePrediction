@@ -46,19 +46,18 @@ The dataset contains features relevant to credit scoring, such as:
    - Analyze correlations between features
 5. **Feature Selection**: Identify significant features using statistical methods.
 6. **Model Building**:
-   - Train multiple machine learning models (e.g., Logistic Regression, Random Forest, Gradient Boosting)
+   - Train multiple machine learning models (e.g., Logistic Regression, Random Forest)
    - Use cross-validation for robust performance evaluation
-7. **Model Evaluation**: Assess models using metrics such as accuracy, precision, recall, and F1-score.
-
-## Model Evaluation
+7. **Model Evaluation**: Assess models using metrics such as accuracy, precission, and roc_auc
+8. **Hyperparameter tunning** : Using gridSearch to tune the parameter for each Algorithm 
+## Evaluation
 The models were evaluated based on their ability to classify credit scores accurately. Results for key models:
-- Logistic Regression: High interpretability, moderate accuracy
-- Random Forest: High accuracy, robust performance
-- Gradient Boosting: Best overall performance with balanced metrics
+- Logistic Regression: High interpretability, moderate accuracy, fit accuracy
+- Random Forest: High accuracy, overfitting for each metrics
 
 ## Conclusions
 - Feature engineering significantly improved model accuracy.
-- Gradient Boosting emerged as the best-performing model.
+- Random Forest emerged as the best-performing model.
 - Insights from EDA highlighted key factors influencing credit scores.
 
 ## Getting Started
@@ -69,5 +68,6 @@ To run this project:
 
 ## Acknowledgments
 Special thanks to open-source contributors and dataset providers for making this project possible.
+
 
 
