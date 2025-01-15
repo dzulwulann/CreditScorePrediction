@@ -1,7 +1,8 @@
 # Credit Score Prediction
 
 ## Overview
-This project focuses on predicting credit scores using machine learning techniques. The primary objective is to classify individuals based on their creditworthiness, which is crucial for financial institutions to manage risk effectively.
+This project focuses on predicting credit scores using machine learning techniques. The primary objective is to develop a machine learning model to predict whether a user will pay on time or face issues with their payment.
+Metrics used in this project are ROC-AUC, Accuracy and precission. The minimun od good metrics should be achieve is 60 %.
 
 ## Table of Contents
 - [Project Description](#project-description)
